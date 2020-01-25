@@ -1,0 +1,47 @@
+@media(max-width: 1200px){
+    html body .carouselSec .owl-carousel div figure figcaption p{
+        font-size: .8rem;
+    }
+}
+@media(max-width: 992px){
+    html body .headerSec .MenuSec .navbar .navbar-nav li a{
+        padding: .4rem .8rem;
+    }
+    html body .headerSec .MenuSec .navbar .navbar-nav li span{
+        width: 9rem;
+        overflow: hidden;
+    }
+    html body .headerSec .MenuSec .navbar .navbar-nav li span input{
+        width: 70%;
+    }
+    html body .headerSec .MenuSec .navbar .navbar-brand{
+        margin-left: 1rem;
+    }
+    html body .headerInfo{
+        text-align:center;
+    }
+}
+@media (max-width: 768px){
+    html body .headerSec .MenuSec .navbar .navbar-nav li span{
+        width: 90%;
+    }
+    html body .headerSec .MenuSec .navbar .navbar-nav{
+        text-align: center;
+    }
+    html body .headerSec .MenuSec .navbar .navbar-nav li a{
+        width: 90%;
+    }
+    html body .carouselSec .owl-carousel .owl-nav{
+        display: none;
+    }
+}
+@media(max-width: 300px){
+    html body .headerSec .MenuSec .navbar .navbar-nav li span input{
+        width: 60%;
+    }
+}
+@media(max-width: 220px){
+    html body .headerSec .MenuSec .navbar .navbar-nav li span input{
+        width: 50%;
+    }
+}
